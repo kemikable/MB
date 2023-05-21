@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background: linear-gradient(344deg, #00caff 0%, #a500ff 80%);
+    position: relative;
+    overflow: hidden;
+}
+
+img {
+    width: 60vw;
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+
+}
+
+.play {
+    position: absolute;
+    bottom: 15vh;
+    left: 25vw;
+    width: 50vw;
+    border: none;
+    padding: 20px 0 20px;
+    border-radius: 50px;
+    color: rebeccapurple;
+    font-family: 'Pacifico', cursive;
+    font-size: larger;
+    background-color: linear-gradient(344deg, #00caff 0%, #a500ff 80%);
+    box-shadow: -2px -2px 10px 0px rgba(176, 129, 222, 0.78)inset;
+    transition: 2ms;
+    cursor: pointer;
+}
+
+.play:hover {
+    box-shadow: -2px -2px 30px 0px rgba(176, 129, 222, 1)inset;
+}
